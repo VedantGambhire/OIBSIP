@@ -1,0 +1,185 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+
+}
+
+body{
+    background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+}
+
+.header{
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+
+}
+
+.logo{
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+
+}
+
+.navbar a {
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+
+
+}
+.navbar a:hover{
+    color: rgb(255, 0, 0);
+
+}
+
+.contact h1{
+    padding-top: 30px;
+    text-align: center;
+}
+.c1{
+    padding-top: 50px;
+    padding-left: 50px;
+    font-size: 25px;
+
+}
+.c2{
+    padding-left: 50px;
+    font-size: 25px;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 100px;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
+
+section {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+a{
+    
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+}
+.contact1{
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    
+    
+
+}
+.contact1 span{
+    display: flex;
+    align-items: center;
+    
+    
+
+}
+.contact1 i{
+    font-size: 20px;
+    margin-right: 1rem;
+    
+
+}
+.or {
+    text-align: center;
+    color: black;
+    font: 40px;
+}
+
+@media(max-width:1000px){
+    .navbar a {
+        font-size: 35px;
+        color: black;
+        text-decoration: none;
+        font-weight: 500;
+        margin-left: 35px;
+        transition: .3s;
+    
+    
+    }
+    
+section {
+    max-width: 800px;
+    
+}
+
+.contact1{
+    max-width: 800px;
+
+}
+.contact1 i{
+    font-size: 35px;
+    margin-right: 1rem;
+    
+
+}
+.contact {
+ font-size: 35px;
+}
+}
